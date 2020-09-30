@@ -1,0 +1,26 @@
+.aboutBLock {
+  height: 70vh;
+  background-color: teal;
+  color: #fff;
+  .aboutText {
+    padding: 15% 10%;
+  }
+  .aboutBeforeTitle {
+    font-size: 30px;
+  }
+  .aboutTitle {
+    font-size: 85px;
+    font-weight: 700;
+  }
+}
+.methodologyBlock {
+  padding: 6% 8%;
+  .methodologyTitle {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 3%;
+  }
+  .methodologyText {
+    padding-right: 20%;
+  }
+}

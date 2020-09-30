@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.rootMain {
+    background-image: url("../../img/header-background.jpeg");
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+.logo {
+    width: 110px;
+}
+.mainContainer {
+    padding: 0 5%;
+}
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.headerMenu {
+    display: flex;
+    li {
+        padding: 0 30px;
+    }
+    a {
+        color: #fff;
+        &:hover {
+            border-bottom: 3px solid #000;
+        }
+    }
+}
+li {
+    list-style-type: none;
+
+}
+a {
+    text-decoration: none;
+}
+
+.headerLanguage {
+    border: 1px solid #f2f2f2;
+    padding: 8px;
+    border-radius: 50%;
+}
+.mainInfo {
+    text-align: center;
+    padding-top: 80px;
+}
+.mainBeforeHeader {
+    font-size: 35px;
+}
+.mainHeaderTitle {
+    font-size: 80px;
+}
+
+.aboutUsBlock {
+    background-color: #000;
+    color: #fff;
+    padding: 5% 0;
+    img {
+        width: 350px;
+    }
+    .aboutUsBlockInner {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .aboutUsTitle {
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .aboutUsText {
+        padding: 3% 10% 3% 0;
+    }
+    .aboutUsInfo {
+        padding-left: 5%;
+    }
+    .aboutUsBtn {
+        display: block;
+        padding: 12px 20px;
+        border-radius: 15px;
+        background-color: lightgrey;
+        transition: all 0.5s ease;
+        &:hover {
+            cursor: pointer;
+            background-color: grey;
+        }
+    }
+}
