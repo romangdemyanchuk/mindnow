@@ -43,6 +43,35 @@ const Main = () => {
                             Learn More
                         </button>
                     </div>
+
+                </div>
+                <div className="featuresCasesTitle">
+                    Featured Cases
+                </div>
+            </div>
+            <div className="featuresCases">
+                <div className="featuresCasesBtn">
+                    <span>Digital Marketing</span>
+                    <span>Digital Strategy</span>
+                </div>
+                <div className="featuresCasesTitle">
+                    Chanoyu Tea
+                </div>
+                <div className="featuresCasesText">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                    necessitatibus nisi sint soluta voluptatem.
+                </div>
+            </div>
+            <div className="mindfulBlock">
+                <div className="mindfulBlockBtn">
+                    <span>contact tracing</span>
+                </div>
+                <div className="featuresCasesTitle">
+                    Chanoyu Tea
+                </div>
+                <div className="featuresCasesText">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                    necessitatibus nisi sint soluta voluptatem.
                 </div>
             </div>
         </>

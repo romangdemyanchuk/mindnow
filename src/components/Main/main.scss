@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .rootMain {
     background-image: url("../../img/header-background.jpeg");
@@ -60,7 +61,10 @@ a {
 .aboutUsBlock {
     background-color: #000;
     color: #fff;
-    padding: 5% 0;
+    padding: 10% 0;
+    .featuresCasesTitle {
+        padding: 40px 0 0 30px
+    }
     img {
         width: 350px;
     }
@@ -69,7 +73,8 @@ a {
         justify-content:space-around;
         align-items: center;
     }
-    .aboutUsTitle {
+    .aboutUsTitle,
+    .featuresCasesTitle {
         font-size: 45px;
         font-weight: 700;
     }
@@ -89,5 +94,52 @@ a {
             cursor: pointer;
             background-color: grey;
         }
+    }
+}
+.featuresCases {
+    background-image: url("../../img/tea-bg.jpg");
+    background-size: cover;
+    height: 55vh;
+    color: #fff;
+    padding: 4% 6%;
+    .featuresCasesBtn {
+        span {
+            margin: 0 7px;
+            border: 1px solid #fff;
+            padding: 7px 12px;
+            border-radius: 13px;
+        }
+    }
+    .featuresCasesTitle {
+        font-size: 45px;
+        margin-top: 15%;
+    }
+    .featuresCasesText {
+        width: 40%;
+        margin-top: 15px;
+    }
+}
+
+.mindfulBlock {
+    background-image: url("../../img/mindful.jpg");
+    background-size: cover;
+    height: 55vh;
+    color: #fff;
+    padding: 4% 6%;
+    .mindfulBlockBtn {
+        span {
+            border: 1px solid #fff;
+            padding: 7px 12px;
+            border-radius: 13px;
+            background-color: cornflowerblue;
+        }
+    }
+    .featuresCasesTitle {
+        font-size: 45px;
+        margin-top: 15%;
+    }
+    .featuresCasesText {
+        width: 40%;
+        margin-top: 15px;
     }
 }
